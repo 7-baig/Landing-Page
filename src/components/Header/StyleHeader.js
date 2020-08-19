@@ -11,7 +11,6 @@ export const Container = styled.div`
     font-family: sans-serif;
     font-size: 10px;
     @media (max-width: 480px) {
-        padding: 10px 0px;
         font-size: 9px;
     }    
 `
@@ -25,7 +24,7 @@ export const MenuIcon = styled.img`
     left: 20px;
     @media (max-width: 480px) {
         width: 15px;
-        top: 30px;
+        top: 40px;
         left: 20px;
     }    
 `
@@ -58,6 +57,7 @@ export const Input = styled.input`
     border: none;
     flex-grow: 1;
     padding: 8px 0px 8px 30px;
+    font-size: 1.6em;
     &:focus {
         outline: none;
     }

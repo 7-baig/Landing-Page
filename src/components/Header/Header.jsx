@@ -2,7 +2,18 @@ import React from 'react'
 import { Link } from "gatsby"
 import menuIcon from '../../images/menuIcon.svg'
 import searchIcon from '../../images/searchIcon.svg'
-import { Container, MenuIcon, Title, InputContainer, Input, SearchIcon, SelectFieldContainer, Select, Option, NavItem } from './StyleHeader'
+import {
+Container,
+MenuIcon,
+Title,
+InputContainer,
+Input,
+SearchIcon,
+SelectFieldContainer,
+Select,
+Option,
+NavItem
+} from './StyleHeader'
 
 export const Header = () => (
 
