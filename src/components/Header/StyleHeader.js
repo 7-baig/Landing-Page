@@ -22,6 +22,7 @@ export const MenuIcon = styled.img`
     position: absolute;
     top: 40px;
     left: 20px;
+    cursor: pointer;
     @media (max-width: 480px) {
         width: 15px;
         top: 40px;
