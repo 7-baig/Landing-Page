@@ -49,13 +49,19 @@ export const Card = styled.div`
         margin-bottom: 30px;
     }
     @media (max-width: 350px) {
-        min-width: 250px;
+        min-width: 200px;
+        min-height: 150px;
     }
 `
 export const Slash = styled.img`
     width: 25px;
     margin-bottom: -15px;
     margin-left: -30px;
+    @media (max-width: 350px) {
+        width: 20px;
+        margin-bottom: -10px;
+        margin-left: -20px;
+    }
 `
 export const ContentWrapper = styled.div`
     display: flex;
@@ -65,13 +71,17 @@ export const ContentWrapper = styled.div`
 export const H3 = styled.h3`
     color: #000;
     width: 85%;
+    @media (max-width: 350px) {
+        text-align: center;
+        font-size: 20px;
+    }
 `
 export const Paragraph = styled.p`
     color: #000;
     font-size: 14px;
     width: 85%;
     @media (max-width: 350px) {
-        width: 80%;
+        width: 95%;
     }
 `
 export const Button = styled.button`
