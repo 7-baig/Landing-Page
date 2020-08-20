@@ -1,11 +1,20 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    width: 30%;
+    width: 400px;
     background: #ffffff;
     display: flex;
+    @media (max-width: 800px) {
+        width: 350px;
+    }
     @media (max-width: 600px) {
-        width: 70%;
+        width: 300px;
+    }
+    @media (max-width: 480px) {
+        width: 250px;
+    }
+    @media (max-width: 300px) {
+        width: 100%;
     }
 `
 
@@ -22,12 +31,18 @@ export const H6 = styled.h6`
     color: #0b1724;
     padding: 0;
     margin: 2px 0px;
+    @media (max-width: 600px) {
+        font-size: 12px;
+    }
 `
 export const H2 = styled.h2`
     font-weight: 800;
     color: #b7c0ca;
     padding: 0;
     margin: 2px 0px;
+    @media (max-width: 600px) {
+        font-size: 22px;
+    }
 `
 
 export const ButtonsContainer = styled.div`
