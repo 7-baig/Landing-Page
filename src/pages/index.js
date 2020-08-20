@@ -5,6 +5,7 @@ import Image from "../components/image"
 import { Main } from "../components/Main/Main"
 import { Service } from "../components/Service/Service"
 import { Properties } from "../components/Properties/Properties"
+import { Social } from "../components/Social/Social"
 
 
 const IndexPage = () => (
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <Main />
     <Service />
     <Properties />
+    <Social />
   </Layout>
 )
 
