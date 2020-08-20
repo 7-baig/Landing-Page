@@ -5,10 +5,10 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px;
+    padding: 00px 0px;
     flex-grow: 1;
     @media (max-width: 600px) {
-        flex-grow: 4;        
+        flex-grow: 1;        
     };
     @media (max-width: 480px) {
         flex-grow: 6;
@@ -16,8 +16,28 @@ export const Container = styled.div`
 `
 export const HeadingContainer = styled.div`
     display: flex;
+    align-items: center;
+`
+export const Image = styled.img`
+    z-index: 1;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @media (max-width: 600px) {
+        width: 350px;
+    }
+    @media (max-width: 480px) {
+        width: 300px;
+    }
+    @media (max-width: 320px) {
+        width: 250px;
+    }
 `
 export const Heading = styled.h1`
+    z-index: 100;
+    text-shadow: 3px 3px 7px #000;
     font-size: 70px;
     color: #ffffff;
     margin: 0px;
@@ -30,5 +50,8 @@ export const Heading = styled.h1`
     @media (max-width: 480px) {
         font-size: 35px;
         margin: ${props => props.primary ? '30px 3px 0px 3px' : '0px 3px 0px 3px'};
+    }
+    @media (max-width: 320px) {
+        font-size: 30px;
     }
 `
