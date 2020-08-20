@@ -92,11 +92,11 @@ export const SearchIcon = styled.img`
 `
 // Select Field Container
 export const SelectFieldContainer = styled.div`
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px 0px;
+    justify-content: center;
+    // padding: 10px 0px;
     @media (max-width: 480px) {
         display: none;
     }
@@ -112,7 +112,8 @@ export const Select = styled.select`
     cursor: pointer;
     color: ${props => props.primary ? '#000' : '#ffffff'};
     font-weight: ${props => props.primary ? '700' : '100'};
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    padding: 10px 20px;
 `
 // options
 export const Option = styled.option`
@@ -126,5 +127,7 @@ export const NavItem = styled.p`
     font-size: 1.1em;
     padding: 0px;
     margin: 0px;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    padding: 10px 20px;
+
 `
