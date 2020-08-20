@@ -27,6 +27,11 @@ export const MenuIcon = styled.img`
         top: 40px;
         left: 20px;
     }    
+    @media (max-width: 320px) {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
 `
 // Title
 export const Title = styled.h3`
@@ -49,6 +54,10 @@ export const InputContainer = styled.div`
     @media (max-width: 600px) {
         width: 70%;   
     }
+    @media (max-width: 320px) {
+        width: 80%;   
+    }
+
 `
 // Input
 export const Input = styled.input`
@@ -63,6 +72,9 @@ export const Input = styled.input`
     }
     @media (max-width: 480px) {
         padding: 4px 0px 4px 15px;
+    }
+    @media (max-width: 320px) {
+        padding: 5px 0px 5px 10px;
     }
 `
 // Search icon
