@@ -6,6 +6,7 @@ import { Main } from "../components/Main/Main"
 import { Service } from "../components/Service/Service"
 import { Properties } from "../components/Properties/Properties"
 import { Social } from "../components/Social/Social"
+import { Footer } from "../components/Footer/Footer"
 
 
 const IndexPage = () => (
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <Service />
     <Properties />
     <Social />
+    <Footer />
   </Layout>
 )
 
